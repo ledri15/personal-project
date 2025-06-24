@@ -1,31 +1,150 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header {
-    background-color: #b22222;
-    color: white;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
 }
-nav ul {
+
+
+.site-header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px 0;
+}
+.site-header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.main-nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    gap: 20px;
 }
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-nav ul li a {
+.main-nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
-main {
-    padding: 20px;
+.main-nav ul li a:hover {
+    text-decoration: underline;
 }
-footer {
-    background-color: #f2f2f2;
-    text-align: center;
+
+
+.content h2 {
+    margin-bottom: 15px;
+    color: #8B0000;
+}
+.content p, .content li {
+    margin-bottom: 10px;
+}
+ul {
+    padding-left: 20px;
+}
+
+
+form {
+    margin-top: 20px;
+}
+input[type="text"],
+textarea {
+    width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #a30000;
+}
+
+.site-footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 600px) {
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .site-header h1 {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+.menu-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #8B0000;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.menu-category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.menu-category h3 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-category ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 1rem;
+}
+.menu-category ul li:last-child {
+    border-bottom: none;
+}
+.menu-category ul li span {
+    color: #333;
+}
+.menu-category ul li strong {
+    color: #8B0000;
+    font-weight: bold;
 }
