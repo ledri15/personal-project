@@ -16,6 +16,8 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="menu.php">Menu</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="delivery.php">Delivery</a></li>
+                    <li><a href="review.php"> Review</a></li>
                 </ul>
             </nav>
         </div>

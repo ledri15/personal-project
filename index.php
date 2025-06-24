@@ -12,12 +12,12 @@
 
 
 <section class="highlights">
-    <h2>Why Choose Us?</h2>
+    <h2>Why Choose Us</h2>
     <ul>
-        <li>✔️ Locally-sourced, fresh ingredients</li>
-        <li>✔️ Warm, welcoming service</li>
-        <li>✔️ Seasonal specials & chef’s picks</li>
-        <li>✔️ Available for dine-in, takeout, and events</li>
+        <li> Locally-sourced, fresh ingredients</li>
+        <li> Warm, welcoming service</li>
+        <li> Seasonal specials & chef’s picks</li>
+        <li> Available for dine-in, takeout, and events</li>
     </ul>
 </section>
 

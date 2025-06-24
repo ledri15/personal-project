@@ -86,7 +86,7 @@ input[type="submit"]:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width:600px) {
     .main-nav ul {
         flex-direction: column;
         gap: 10px;
@@ -148,3 +148,4 @@ input[type="submit"]:hover {
     color: #8B0000;
     font-weight: bold;
 }
+
