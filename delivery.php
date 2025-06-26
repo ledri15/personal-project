@@ -66,6 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
+
 <h2 style="text-align:center;">Delivery Order Form</h2>
 
 <?php if ($successMsg): ?>

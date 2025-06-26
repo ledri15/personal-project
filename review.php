@@ -86,6 +86,5 @@ if (file_exists($file))
 <?php endif; ?>
 
 <?php include('footer.php'); ?>
-
 </body>
 </html>
